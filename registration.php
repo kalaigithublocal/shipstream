@@ -5,5 +5,5 @@
  */
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Shipstream_Magento2', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Shipstr_Magento2', __DIR__);
 

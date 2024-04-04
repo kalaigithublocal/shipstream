@@ -1,6 +1,6 @@
 {
-    "name": "shipstream/module-magento2",
-    "description": "shipstream magento2 sync",
+    "name": "shipstr/module-magento2",
+    "description": "shipstr magento2 sync",
     "type": "magento2-module",
     "license": "OSL-3.0",
     "authors": [
@@ -15,7 +15,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Shipstream\\Magento2\\": ""
+            "Shipstr\\Magento2\\": ""
         }
     }
 }

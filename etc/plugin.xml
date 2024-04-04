@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin>
-    <ShipStream_Magento2>
+    <Shipstr_Magento2>
         <info>
             <name>Magento 2</name>
             <author>ShipStream, LLC</author>
@@ -74,7 +74,7 @@
             <shipping_method_config>
                 <label>Shipping Method Translation</label>
                 <type>custom</type>
-                <class>ShipStream_Magento2_ShippingMethodConfig</class>
+                <class>Shipstr_Magento2_ShippingMethodConfig</class>
                 <sort_order>60</sort_order>
                 <comment><![CDATA[
                 Translate the Magento Shipping Method (code) or Shipping Description (title) to the indicated shipping method.
@@ -103,5 +103,5 @@
                 <sync_orders>cron_sync_orders</sync_orders>
             </every_ten_minutes>
         </crontab>
-    </ShipStream_Magento2>
+    </Shipstr_Magento2>
 </plugin>

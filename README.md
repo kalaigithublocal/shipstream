@@ -1,4 +1,4 @@
-# Mage2 Module Shipstream Magento2
+# Mage2 Module Shipstr Magento2
 
     ``shipstream/module-magento2``
 
@@ -17,8 +17,8 @@ shipstream magento2 sync
 
 ### Type 1: Zip file
 
- - Unzip the zip file in `app/code/Shipstream`
- - Enable the module by running `php bin/magento module:enable Shipstream_Magento2`
+ - Unzip the zip file in `app/code/Shipstr`
+ - Enable the module by running `php bin/magento module:enable Shipstr_Magento2`
  - Apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
 
@@ -30,7 +30,7 @@ shipstream magento2 sync
     - public github repository as vcs
  - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
  - Install the module composer by running `composer require shipstream/module-magento2`
- - enable the module by running `php bin/magento module:enable Shipstream_Magento2`
+ - enable the module by running `php bin/magento module:enable Shipstr_Magento2`
  - apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
 
