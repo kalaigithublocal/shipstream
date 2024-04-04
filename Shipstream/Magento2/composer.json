@@ -1,0 +1,21 @@
+{
+    "name": "shipstream/module-magento2",
+    "description": "shipstream magento2 sync",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "g2"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Shipstream\\Magento2\\": ""
+        }
+    }
+}
