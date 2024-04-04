@@ -1,2 +1,2 @@
-app/code/Shipstr/Magento2/etc/module.xml
-app/code/Shipstr/Magento2/
+app/etc/modules/Shipstr_Magento2.xml
+app/code/community/Shipstr/Magento2/
