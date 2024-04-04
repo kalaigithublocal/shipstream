@@ -1,15 +1,9 @@
 {
     "name": "shipstr/module-magento2",
-    "description": "shipstr magento2 sync",
+    "description": "Description of your module",
     "type": "magento2-module",
-    "license": "OSL-3.0",
-    "authors": [
-        {
-            "name": "g2"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {},
+	"license": "OSL-3.0",
+    "version": "1.0.1",
     "autoload": {
         "files": [
             "registration.php"
@@ -17,5 +11,6 @@
         "psr-4": {
             "Shipstr\\Magento2\\": ""
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
